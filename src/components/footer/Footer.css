@@ -1,0 +1,133 @@
+.footer-container {
+  background-image: url("./../../assets/bgs/bg4.png");
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  color: white;
+  padding: 2rem 2rem;
+  gap: 15px;
+  font-size: 1rem;
+}
+li {
+  list-style: none;
+}
+.footer-container > div > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 350px;
+}
+.footer-text-intro {
+  text-align: justify;
+  width: 250px;
+}
+li:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-bottom: solid 2px #ffbc00;
+  padding-bottom: 0.5rem;
+}
+.footer-icon {
+  width: 32px;
+  height: 32px;
+  color: #f2f2f2;
+  font-size: 0.5rem;
+  transition: all 200ms;
+}
+.footer-icon:hover {
+  color: #ffbc00;
+}
+.footer-img-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.footer-service-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.footer-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #fff;
+}
+.footer-link-icon {
+  color: #ffbc00;
+}
+.footer-input-container {
+  background-color: #fff;
+  border-radius: 16px;
+  height: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer-input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0 0.5rem;
+  width: 75%;
+}
+.footer-btn {
+  width: 3rem;
+  height: 28px;
+  background-color: #ffbc00;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
+.footer-contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.ft-icon {
+  width: 36px;
+  height: 36px;
+}
+.footer-contact-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 1rem 0 1rem 1rem;
+  background-color: #ffbc00;
+  font-size: 1rem;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-contact-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 920px) {
+  .footer-container {
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+  .footer-container > div {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer-container {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .footer-container > div {
+    width: 100%;
+  }
+}

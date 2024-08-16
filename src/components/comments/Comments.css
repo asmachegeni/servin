@@ -1,0 +1,9 @@
+.sw2 {
+  height: 300px;
+  padding: 1rem 0;
+}
+@media screen and (max-width: 480px) {
+  .sw2 {
+    height: 400px;
+  }
+}

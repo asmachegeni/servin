@@ -1,0 +1,74 @@
+.member-container {
+  height: 300px;
+  width: 250px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.member-container:hover {
+  box-shadow: 2px 8px 16px #aaa;
+}
+
+.member-profile {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+.member-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.member-position {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #999;
+  border-bottom: solid 1px #eee;
+}
+.member-link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 8px;
+  border-radius: 0 0 16px 16px;
+}
+.member-icon {
+  font-size: 1rem;
+}
+.member-icon-cont {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.member-icon-cont:hover {
+  background-color: #ffbc00;
+}
+.member-icon:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .member-container {
+    width: 33%;
+    height: 320px;
+  }
+  .member-profile {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .member-container {
+    width: 250px;
+  }
+}

@@ -1,0 +1,26 @@
+.counter-contanier {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  background-color: #f2f2f2;
+  border-radius: 1.5rem;
+}
+.counter-img {
+  width: 96px;
+  height: 96px;
+}
+.counter-number-con {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffbc00;
+}
+.counter-title {
+  font-size: 1rem;
+  color: #000;
+}

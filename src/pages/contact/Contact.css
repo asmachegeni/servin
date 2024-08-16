@@ -1,0 +1,137 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+.contact-form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 600px;
+  width: 100%;
+}
+.contact-pic {
+  width: 355px;
+  height: 387px;
+  object-fit: cover;
+  border-radius: 20% 0 20% 20%;
+}
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+}
+.contact-form-title {
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 700;
+  border-bottom: 1px solid #ffbc00;
+}
+.contact-field {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  width: 400px;
+  height: 42px;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.contact-field-text-area {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  width: 400px;
+  height: 150px;
+  border-radius: 1rem;
+  padding: 1rem;
+  resize: none;
+}
+.contact-button {
+  border: none;
+  outline: none;
+  background-color: #ffbc00;
+  width: 400px;
+  height: 42px;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-error {
+  color: red;
+  font-size: 0.8rem;
+  padding: 2px 14px;
+}
+.contact-card-section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 2rem 0;
+}
+.contact-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 250px;
+  height: 220px;
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 2px 5px 8px #aaa;
+}
+.card-contact-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 1rem 0 1rem 1rem;
+  background-color: #000;
+  font-size: 1rem;
+  color: #ffbc00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+}
+.card-contact-text > span:nth-child(1) {
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .contact-card-section {
+    flex-direction: column;
+    height: auto;
+  }
+  .contact-form-section {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0;
+  }
+  .contact-button,
+  .contact-field,
+  .contact-field-text-area {
+    width: 280px;
+  }
+  .contact-form {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-pic {
+    width: 280px;
+    height: 290px;
+  }
+}
